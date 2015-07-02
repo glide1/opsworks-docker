@@ -1,5 +1,4 @@
 include_recipe 'apt'
-package 'apt-transport-https'
 
 apt_repository "docker" do
   uri "https://get.docker.com/ubuntu"
